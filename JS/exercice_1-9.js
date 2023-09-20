@@ -1,4 +1,4 @@
-"user strict";
+"use strict";
 
 //asking for random sentence to user
 let randomSentence = prompt("Give a random sentence!", "The fox jumps over the rainbow");
