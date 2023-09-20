@@ -1,8 +1,11 @@
 "use strict";
 
 //ask two random numbers
-const randomNumber1 = prompt("Give me a random number! (don't add comma's, dividers or anything, just a straight number)", 5);
-const randomNumber2 = prompt("Give me another random number, same principle as before!", 3);
+let randomNumber1 = prompt("Give me a random number! (don't add comma's, dividers or anything, just a straight number)", 5);
+let randomNumber2 = prompt("Give me another random number, same principle as before!", 3);
+
+randomNumber1 = parseInt(randomNumber1);
+randomNumber2 = parseInt(randomNumber2);
 
 //multiply numbers
 const multNumber = randomNumber1 * randomNumber2;
