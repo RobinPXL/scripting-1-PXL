@@ -1,15 +1,13 @@
 "user strict";
 
-"use strict";
-
-//asking for random word to user
+//asking for random sentence to user
 let randomSentence = prompt("Give a random sentence!", "The fox jumps over the rainbow");
 console.log("This was your random sentence: " + randomSentence);
 
-if(randomSentence.includes(" ")){
-    
-}
-//show the length of the random word back to the user
-const answer = "This was the length of your random word: " + randomWord.length;
+//show the length of the random sentence back to the user
+let indexSpace = randomSentence.indexOf(" ");
+indexSpace += 1;
+
+const answer = "Your first space is found at index: " + indexSpace;
 alert(answer);
 console.log(answer);
