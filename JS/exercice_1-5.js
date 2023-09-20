@@ -10,3 +10,6 @@ console.log(longSentence);
 // Webpage/HTML versie
 let change = document.getElementById("change");
 change.innerHTML = longSentence;
+
+//alert versie
+alert(longSentence);
